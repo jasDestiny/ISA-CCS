@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="pg1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<title>ISA CCS</title>
+	<style>
+	select
+	{
+		background-color: #eeeeee;
+		font-family: calibri;
+		font-size:120%;
+		text-align: center;
+		border: 2px green solid;
+		
+	}
+	</style>
+ 
+
+</head>
+
+<body>
+  
+
+<!-- multistep form -->
+<form id="msform" action="pselectdomain.php" method="post">
+    <!-- fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">ISA CCS</h2>
+      <h3 class="fs-subtitle">Select your cobain</h3>
+      <select name="d">
+		<option value="7">Technical</option>
+		<option value="6">Design</option>
+		<option value="1">Management</option> 	
+		<option value="4">Web Development</option>
+		<option value="5">App Development</option>
+		<option value="2">Machine Learning</option>
+		<option value="3">IOT</option>
+		
+		
+	  </select>
+      <button name="next" class="next action-button1" value="Next" >Select</button>
+      
+    </fieldset>
+    
+  </form></body>
+</html>
